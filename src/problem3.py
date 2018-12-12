@@ -178,6 +178,7 @@ def problem3a(r, s):
             total += r + k
     return total
 
+
 def run_test_problem3b():
     """ Tests the   problem3b   function. """
     print()
@@ -289,8 +290,10 @@ def problem3b(m, r):
     ###########################################################################
     total = 0
     for k in range(m):
-        total += (k + 1)/((r +k) ** (k + 1))
+        total += (k + 1) / ((r + k) ** (k + 1))
     return total
+
+
 ###############################################################################
 # Our tests use the following to print error messages in red.
 # Do NOT change it.  You do NOT have to do anything with it.
