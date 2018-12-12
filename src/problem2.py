@@ -50,6 +50,7 @@ def test_factor_sum():
     print('Test 1:')
     print('expected' , expected)
     print('actual' , actual)
+    print()
 
     # Test 2
     expected = 6
@@ -57,27 +58,32 @@ def test_factor_sum():
     print('Test 2:')
     print('expected' , expected)
     print('actual' , actual)
+    print()
 
     # Test 3
-    expected = 1 2 4 13 26 52
+    expected = 17
     actual = factor_sum(52)
     print('Test 3:')
     print('expected', expected)
     print('actual', actual)
+    print()
 
     # Test 4
-    expected = 3
-    actual = factor_sum(2)
+    expected = 2
+    actual = factor_sum(19)
     print('Test 4:')
     print('expected', expected)
     print('actual', actual)
+    print()
 
     # Test 5
-    expected = 3
-    actual = factor_sum(2)
+    expected = 10
+    actual = factor_sum(36)
     print('Test 5:')
     print('expected', expected)
     print('actual', actual)
+    print()
+
 def factor_sum(n):
     """
     Given a positive integer n,
@@ -110,3 +116,4 @@ def factor_sum(n):
     ###########################################################################
     # DO NOT modify the above line of code!
     ###########################################################################
+main()
